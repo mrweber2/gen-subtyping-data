@@ -31,6 +31,8 @@ Trinucleotides are identified in the reference genome and the variant file. Freq
 
 Runs genMutModel.py on all TSVs/VCFs in current directory.
 
+Needs to be edited for more general usage. Will update soon.
+
 ## sample_individuals.py
 
 Parses out random 100 donors from population mutation file from ICGC
@@ -40,7 +42,7 @@ python sample_individuals.py                         \
 	-m inputVariants.tsv                         
 ```
 
-Needs to be internally edited currently. Will update soon.
+Needs to be edited for more general usage. Will update soon.
 
 ## To-Do
 ```
