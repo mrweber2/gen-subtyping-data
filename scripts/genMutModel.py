@@ -191,7 +191,6 @@ def main():
 	# identify regions that have significantly higher local mutation rates than the average
 	HIGH_MUT_REGIONS = []
 
-	D_LIST = open("/home/mrweber2/Cancer_Subtyping/pop_data/BRCA/ID.txt").readlines()
 	trinucs = ['AAA','AAC','AAT','AAG','ACA','ACC','ACG','ACT','AGA','AGC','AGG','AGT','ATA','ATC','ATG','ATT','CAA','CAC','CAG','CAT','CCA','CCC','CCG','CCT','CGA','CGC','CGG','CGT','CTA','CTC','CTG','CTT','GAA','GAC','GAG','GAT','GCA','GCC','GCG','GCT','GGA','GGC','GGG','GGT','GTA','GTC','GTG','GTT','TAA','TAC','TAG','TAT','TCA','TCC','TCG','TCT','TGA','TGC','TGG','TGT','TTA','TTC','TTG','TTT']
 
 #	for d in D_LIST:
@@ -517,7 +516,6 @@ def main():
 	########################################################################## """
 
 
-	print D_LIST
 
 	#for k in sorted(TRINUC_REF_COUNT.keys()):
 	#		print k, TRINUC_REF_COUNT[k]
